@@ -16,6 +16,7 @@ public class thirteen1 {
 		for(int i= 0 ;i < ar1.length;i++) {
 			
 			System.out.println("이번 " + i + "번 째 배열 인덱스 값 : " + ar1[i]);
+			System.out.println("안녕하세요");
 		}
 		
 		double[] ar2 = new double[7];// 8 * 7 = 56바이트가 순차적
