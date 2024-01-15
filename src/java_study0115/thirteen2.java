@@ -9,6 +9,7 @@ public class thirteen2 {
 			sum+=ar1[i];
 			System.out.println("이번 " + i + "번 째 배열 인덱스 값 : " + ar1[i] + ", 값들의 합" + sum);
 		}
+		System.out.println("Hi");
 	}
 
 }
