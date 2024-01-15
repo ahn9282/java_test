@@ -3,7 +3,7 @@ package java_study0115;
 public class thirteen2 {
 	public static void main(String[] args) {
 		int[] ar1=new int[10];
-		int sum = 0;
+		int sum = 0; //ㄴㅁㅇㄴㅁㅇ
 		for(int i= 0 ;i < ar1.length;i++) {
 			ar1[i] = i+1;
 			sum+=ar1[i];
