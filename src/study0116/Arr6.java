@@ -13,11 +13,12 @@ public class Arr6 {
 	}
 
 	public static void main(String[] args) {
+		
 		final int CIRCLE_MAX = 3;
 		Circle3[] arrCircle = {new Circle3(5),new Circle3(10),new Circle3(100)};
 		Circle3[] car = new Circle3[CIRCLE_MAX];
 		Scanner sc = new Scanner(System.in);
-		double sircleSum = sumOfCircle(arrCircle);
+		double circleSum = sumOfCircle(arrCircle);
 
 		double sum = 0;
 		for(int i =0; i< car.length;i++) {
@@ -28,6 +29,7 @@ public class Arr6 {
 			sum+=car[i].getArea();
 		}
 		System.out.println("서클 넓이의 합 : " + sum);
+		if(circleSum == sum)System.out.println("둘이 같네요");
 	}
 }
 
