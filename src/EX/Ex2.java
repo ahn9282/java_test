@@ -28,7 +28,6 @@ public class Ex2 {
 				if(game.count== 0) {
 					System.out.println("실패!");
 					System.out.println("다시 도전하세요~");
-					game.countRe();
 					play = false;
 					break;
 				}else if(game.end) {
