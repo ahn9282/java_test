@@ -20,7 +20,7 @@ public class Ex2 {
 				break;
 			}
 
-			int TARGET = (int) (Math.random() * 50) + 1; // 1~50 랜덤값
+			int TARGET = (int) (Math.random() * 100) + 1; // 1~50 랜덤값
 			for (int i = 0; i < 10; i++) { // 10회 제한이므로 10번 까지 반복
 				System.out.print("숫자를 입력해주세요 : ");
 				int num = sc.nextInt();
