@@ -19,7 +19,7 @@ public class For_Each2 {
 			
 			for(Box1 e : arr) {
 				if(e.getBox1Num()==505) {
-					System.out.println(e);
+					System.out.println(e + "굳");
 				}
 			}
 			}	
