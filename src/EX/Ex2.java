@@ -3,10 +3,10 @@ package EX;
 import java.util.Scanner;
 
 public class Ex2 {
+	private boolean play = true;
+	Scanner sc = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		boolean play = true;
+	public Ex2() {
 		while (play) { // 재경기를 위한 while 반복
 			System.out.println("게임시작 1"); // 의사 물어보기
 			System.out.println("게임종료 2");
