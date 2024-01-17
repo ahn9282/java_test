@@ -17,7 +17,7 @@ public class Ex2_UpDown {
 		}
 	}
 
-	void countRe() {// 재경기를 위한 static값 count를 다시 10으로 초기화
+	void countRe() {// 재경기를 위한 static int count값을 다시 10으로 초기화
 		this.count = 10;
 	}
 
