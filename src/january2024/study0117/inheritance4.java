@@ -52,13 +52,15 @@ class IPTV extends ColorTV {
 	public IPTV(String ip, int size, int pixel) {
 		super(size, pixel);
 		this.ip = ip;
-	}
+		System.out.println(size + " " + ip + " " + pixel);
+	} 
 
 	public void printProperty() {
 		System.out.print("나의 IpTV는 " + ip + "주소에 " );
 		super.printProperty();
 	}
 }
+
 
 public class inheritance4 {
 
