@@ -10,7 +10,7 @@ public class overrideMain {
 		System.out.println(r1.getArea());
 
 		figure[] arr = new figure[5];
-		arr[0] = new CCircle(10);
+		arr[0] = new CCircle(16);
 		arr[1] = new TTriangle(10, 10);
 		arr[2] = new RRectangle(20, 30);
 		arr[3] = new CCircle(50);
