@@ -71,5 +71,6 @@ public class inheritance4 {
 		newTv.printProperty();
 		IPTV myipTV = new IPTV("192.1.1.2", 32, 2048);
 		myipTV.printProperty();
+		System.out.println(newTv.getSize());//뉴티비는 스마트칼라티비 > 칼라티비 > 티비 이렇게 상속관계니까 그냥 사용가능
 	}
 }

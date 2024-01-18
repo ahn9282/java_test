@@ -17,7 +17,6 @@ public class Ex2 {
 			} else {
 				System.out.println("게임을 종료합니다."); // play = 0으로 하고 break를 넣어서 게임 종료
 				play = false;
-				break;
 			}
 
 			int TARGET = (int) (Math.random() * 100) + 1; // 1~50 랜덤값
@@ -30,9 +29,9 @@ public class Ex2 {
 					System.out.println("다시 도전하세요~");
 					play = false;
 					break;
-				} else if (game.end) {
+				} else if (game.end) { // 숫자를 맞출 경우 end를 true로 만들어 해당 조건에 해당하도록 함
 					game.countRe();// 숫자를 맞췄을 때 재경기를 위한 count초기화
-					break;
+					break;//for문 탈출 그리고 다시  재 경기 또는 중지를 묻는 초기로 다시 반복(while문)
 				} else {
 
 				}

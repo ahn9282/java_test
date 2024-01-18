@@ -13,7 +13,7 @@ public class Ex2_UpDown {
 		} else if (num == ran) {
 			System.out.println("일치");
 			System.out.println("ㅊㅋㅊㅋ");
-			endNow();// 끝내도록 하는 boolean타입 end를 true로 반환하는 메서드활용
+			endNow();// 반복문을 끝내도록 하는 boolean타입 end를 true로 반환하는 메서드활용
 		}
 	}
 
