@@ -20,8 +20,7 @@ public class overrideMain {
 			System.out.print(arr[i].getArea() + "\t");
 			sum += arr[i].getArea();
 		}
-		System.out.println();
-		System.out.println(sum);
+		System.out.println("\n" + sum);
 
 	}
 
