@@ -21,7 +21,6 @@ public class overrideMain {
 			sum += arr[i].getArea();
 		}
 		System.out.println("\n" + sum);
-
 	}
 
 }
