@@ -7,13 +7,14 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class exception3 {
-
+	
 	public static void main(String[] args) {
 		Path file = Paths.get("C:\\Users\\tjqwn\\Simple.txt");
 
 		BufferedWriter writer = null;
-
+		
 		try {
+			
 			writer = Files.newBufferedWriter(file);
 		
 		writer.write('A');
