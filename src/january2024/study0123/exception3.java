@@ -18,6 +18,9 @@ public class exception3 {
 		
 		writer.write('A');
 		writer.write('Z');
+		writer.write("sdasd");
+		writer.write("야야야");
+		writer.append("지지지지");
 
 		if (writer != null)
 			writer.close();
