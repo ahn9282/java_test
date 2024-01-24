@@ -44,6 +44,7 @@ public class SWrapper1 extends Kingteger{
 		System.out.println(a.add(3));
 		System.out.println(a.add(5.3f));
 		System.out.println(a.add(18.34));
+		
 	}
 }
 	 class Kingteger extends Number{
@@ -92,7 +93,4 @@ public class SWrapper1 extends Kingteger{
 		 public Kingteger add(long other) {
 			 return new Kingteger(this.num + (int)other);
 		 }
-
-		
 	}
-
