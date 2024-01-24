@@ -33,6 +33,7 @@ class Calculator implements ICalculator {
 	@Override
 	public int div(int x, int y) {
 		// TODO Auto-generated method stub
+		System.out.println(x / y);
 		return x / y;
 	}
 
