@@ -21,10 +21,7 @@ public class SWrapper1 extends Kingteger{
 		System.out.println(num);
 		System.out.println(iObj);
 		System.out.println(a);
-		int qwe = parseKint(a) + parseKint(b);
 		int wer = parseKint(str1) + parseKint(str2);
-		System.out.println(qwe);
-		System.out.println(wer);
 		
 		System.out.print("(double)iObj : " + iObj.doubleValue() +"\t"); //auto unboxing
 		System.out.print("dObj2 : " + dObj2+ "\t");
@@ -43,6 +40,10 @@ public class SWrapper1 extends Kingteger{
 			sum += nb.doubleValue();
 		}
 		System.out.println(sum);
+		System.out.println(a.add(b));
+		System.out.println(a.add(3));
+		System.out.println(a.add(5.3f));
+		System.out.println(a.add(18.34));
 	}
 }
 	 class Kingteger extends Number{
@@ -53,7 +54,7 @@ public class SWrapper1 extends Kingteger{
 		public String toString() {
 			return String.valueOf(num);
 		}
-		public static int parseKint(Kingteger num) {
+		public static int parseKint(int num) {
 			return Integer.parseInt(String.valueOf(num));
 		}
 		public static int parseKint(String num) {
@@ -76,6 +77,22 @@ public class SWrapper1 extends Kingteger{
 			return (double) num;
 			// TODO Auto-generated method stub
 		}
+		 public static Kingteger valueOf(int value) {
+		        return new Kingteger(value);
+		    }
+		 public Kingteger add(Kingteger other) {
+		        return new Kingteger(this.num + other.num);
+		    }
+		 public Kingteger add(int other) {
+			 return new Kingteger(this.num + other);
+		 }
+		 public Kingteger add(double other) {
+			 return new Kingteger(this.num + (int)other);
+		 }
+		 public Kingteger add(long other) {
+			 return new Kingteger(this.num + (int)other);
+		 }
+
 		
 	}
 
