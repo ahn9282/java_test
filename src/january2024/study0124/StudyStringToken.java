@@ -15,6 +15,7 @@ public class StudyStringToken {
 		while(st2.hasMoreTokens()) {
 			System.out.print(st2.nextToken() + '\t');
 		}
+		
 	}
 
 }
