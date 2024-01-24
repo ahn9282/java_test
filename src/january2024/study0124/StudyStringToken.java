@@ -16,7 +16,12 @@ public class StudyStringToken {
 		while(st2.hasMoreTokens()) {
 			System.out.print(st2.nextToken() + '\t');
 		}
-		
+		String str = "inpa@tistory@com@super@power";
+
+		StringTokenizer strr = new StringTokenizer(str, "@");
+		while(strr.hasMoreTokens()) {
+			System.out.print(strr.nextToken() + '\t');
+		}		
 	}
 
 }
