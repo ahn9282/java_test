@@ -1,6 +1,5 @@
 package january2024.study0124;
 
-import java.math.BigDecimal;
 import java.util.StringTokenizer;
 
 public class StudyStringToken {
