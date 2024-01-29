@@ -15,8 +15,8 @@ public class TodayEx7 {
 
 	}
 
-	public static void swapBox(Boox a, Boox b) {
-		Object temp = a.get();
+	public static <T> void swapBox(Boox<T> a, Boox<T> b) {
+		int temp = a.get();
 		a.num = b.get();
 		b.num = temp;
 	}
@@ -24,13 +24,13 @@ public class TodayEx7 {
 }
 
 class Boox<T> {
-	T num;
+	int num;
 
 	public void set(T a) {
-		this.num = a;
+		this.num = (int) a;
 	}
 
-	public T get() {
+	public int get() {
 		return num;
 	}
 
